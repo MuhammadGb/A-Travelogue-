@@ -1,0 +1,16 @@
+---
+application:
+  name: "a-travelogue-"
+  project: "Travell"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "any"
+    size: "500"
+    type: "hdd"
+    mount_point: "/mnt/any"
+routers:
+- name: "main-a-travelogue-"
+  routes:
+  - application_name: "a-travelogue-"
+    paths:
+    - "/*"
